@@ -1,0 +1,83 @@
+[
+    {
+        "firstName": "Nigar",
+        "lastName": "Movsumova",
+        "email": "movsum.nigar@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/nigarmovsumova/",
+        "github": "https://github.com/NigarMovsumova",
+        "position": "Mentor",
+        "photo": "photo/nigar"
+    },
+    {
+        "firstName": "Asif",
+        "lastName": "Haciyev",
+        "email": "asif.hajiyev@outlook.com",
+        "linkedin": "https://www.linkedin.com/in/asifhaciyev/",
+        "github": "https://github.com/asifhajiyev",
+        "position": "Back-End",
+        "photo": "photo/asif"
+    },
+    {
+        "firstName": "Minaya",
+        "lastName": "Yaqubova",
+        "email": "minaya.yagubova@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/mnyx7/",
+        "github": "https://github.com/mnyx7",
+        "position": "Front-End",
+        "photo": "photo/minaya"
+    },
+    {
+        "firstName": "Mahammad",
+        "lastName": "Rahimov",
+        "email": "m.ragimov09@gmail.com",
+        "linkedin": "www.linkedin.com/in/magomed-ragimov-09990",
+        "github": "http://github.com/Ragimov09",
+        "position": "Front-End",
+        "photo": "photo/mahammad"
+    },
+    {
+        "firstName": "Laman",
+        "lastName": "Gulieva",
+        "email": "",
+        "linkedin": "",
+        "github": "",
+        "position": "Front-End",
+        "photo": "photo/laman"
+    },
+    {
+        "firstName": "Murad",
+        "lastName": "Isgandarli",
+        "email": "isgandarli_murad@mail.ru",
+        "linkedin": "https://www.linkedin.com/in/murad-isgandarli-23500b198/",
+        "github": "https://github.com/muradisgandar",
+        "position": "Back-End",
+        "photo": "photo/murad"
+    },
+    {
+        "firstName": "Tural",
+        "lastName": "Mammadzada",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/tural-memmedzade-abab62197",
+        "github": "https://github.com/tural735",
+        "position": "Front-End",
+        "photo": "photo/tural"
+    },
+    {
+        "firstName": "Ali",
+        "lastName": "Huseynov",
+        "email": "huseynov_ali@outlook.com",
+        "linkedin": "https://www.linkedin.com/mwlite/in/ali-huseynov-a3198b160",
+        "github": "https://github.com/alihsoff",
+        "position": "Back-End",
+        "photo": "photo/ali"
+    },
+    {
+        "firstName": "new",
+        "lastName": "user",
+        "email": "new.user@gmail.com",
+        "linkedin": "newuserlinkedin",
+        "github": "newusergithub",
+        "position": "newuserposition",
+        "photo": "photo/newuser"
+    }
+]
