@@ -42,8 +42,8 @@ h1, p{
 }
 .m-icons a{color: #48C9B0;}
 .photo{
-    box-shadow: 1px 4px 8px 1px #48C9B0;
-    transform: translateY(120px);
+	background-color: whitesmoke;
+	transform: translateY(120px);
 }
 .member:hover .photo{
     transform: translateY(0);
@@ -53,7 +53,6 @@ h1, p{
     transform: translateY(-50px);
 }
 .member:hover .info{
-    box-shadow: 0 4px 8px 0 #48C9B0;
     color: #fff;
     transform: translateY(0);
     background-color: #48C9B0 !important;
