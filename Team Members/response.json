@@ -54,13 +54,13 @@
         "photo": "photo/murad"
     },
     {
-        "firstName": "Tural",
-        "lastName": "Mammadzada",
+        "firstName": "Hatem",
+        "lastName": "",
         "email": "",
-        "linkedin": "https://www.linkedin.com/in/tural-memmedzade-abab62197",
-        "github": "https://github.com/tural735",
+        "linkedin": "",
+        "github": "",
         "position": "Front-End",
-        "photo": "photo/tural"
+        "photo": "photo/hatem"
     },
     {
         "firstName": "Ali",
@@ -70,14 +70,5 @@
         "github": "https://github.com/alihsoff",
         "position": "Back-End",
         "photo": "photo/ali"
-    },
-    {
-        "firstName": "new",
-        "lastName": "user",
-        "email": "new.user@gmail.com",
-        "linkedin": "newuserlinkedin",
-        "github": "newusergithub",
-        "position": "newuserposition",
-        "photo": "photo/newuser"
     }
 ]
