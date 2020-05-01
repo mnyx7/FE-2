@@ -10,7 +10,7 @@ window.onload = function () {
             team.innerHTML += `
             <div class="member">
                     <div class="face photo">
-                    <img id="photo" alt="${record.position}" />
+                    <img src="img/photo.jpeg" id="photo" onmouseout="photo()" onmouseover="hoverPhoto()" alt="${record.position}" />
                         <h1 class="name">${record.firstName} ${record.lastName}</h1>
                         <p class="position">${record.position}</p>
                         <p>${record.email}</p>
@@ -27,4 +27,10 @@ window.onload = function () {
 
         });
     }
+}
+function hoverPhoto(){
+    document.getElementById("photo").src="img/photo_hover.jpeg"
+}
+function photo(){
+document.getElementById("photo").src="img/photo.jpeg"
 }
