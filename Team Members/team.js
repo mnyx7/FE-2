@@ -4,9 +4,7 @@ window.onload = function () {
         .then(json => {
             var team = document.getElementsByClassName('team')[0]
             renderMember(json)
-        })
-
-        
+        })        
     const renderMember = records => {
         records.forEach(record => {
             team.innerHTML += `
