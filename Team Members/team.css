@@ -32,6 +32,7 @@
 }
 
 header {
+    height: 100px;
     padding-top: 16px;
     z-index: 2;
     position: relative;
@@ -180,6 +181,7 @@ header .navTools .languages a:hover {
 .face {
     transition: 0.5s;
 }
+#team:first-child{margin-top:0;}
 #team{
     margin: 50px auto;
     max-width: 1000px;
@@ -209,10 +211,10 @@ h1, p{
     background-color: whitesmoke;
     transform: translateY(120px);
 }
-.member:hover .photo{
+.member:hover  .photo{
     transform: translateY(0);
 }
-.member:hover .info{
+.member:hover  .info{
     color: #fff;
     transform: translateY(0);
     background-color: #48C9B0 !important;
@@ -221,6 +223,149 @@ h1, p{
  .fa-linkedin:hover{color: #0077b5;}
  .fa-github-square:hover{color: #24292e;}
  
+#contact {
+    height: 750px;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+}
+
+#contact .title h3 {
+    font: 500 48px var(--fontRoboto);
+    color: #1abc9c;
+    padding-top: 30px;
+}
+
+#contact .title p {
+    font: 500 16px var(--fontRoboto);
+    color: #117a65;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+#contact .info {
+    float: right;
+    display: flex;
+    margin-right: 120px;
+}
+
+#contact .info i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #1abc9c;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#contact .info i:hover {
+    transform: translateY(-14px);
+}
+
+#contact .info article {
+    text-align: center;
+}
+
+#contact .info article hr {
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: #0b5345;
+}
+
+#contact .info article h6 {
+    font: 900 16px var(--fontRoboto);
+    color: #0b5345;
+}
+
+#contact .info article p {
+    width: 180px;
+    text-align: center;
+    font: 400 16px var(--fontRoboto);
+    color: #0b5345;
+}
+
+#contact .info article a {
+    width: 180px;
+    text-align: center;
+    font: 400 16px var(--fontRoboto);
+    color: #0b5345;
+}
+
+#contact .text-inputs {
+    display: flex;
+}
+
+#contact .text-inputs iframe {
+    margin-top: 140px;
+    margin-left: 370px;
+    justify-content: space-between;
+    float: right;
+    border-radius: 15px;
+}
+
+#contact form h6 {
+    margin-left: 5px;
+    font: 500 16px var(--fontRoboto);
+    color: #117a65;
+}
+
+#contact form input {
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid #48c9b0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#contact form input:focus,
+#contact form textarea:focus {
+    border-bottom: 4px solid #117a65;
+}
+
+#contact form textarea {
+    border: none;
+    border-bottom: 2px solid #48c9b0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    resize: none;
+    width: 400px;
+}
+
+#contact form input,
+textarea:empty {
+    padding-left: 15px;
+    padding-right: 10px;
+    font: 700 16px 'Libre Baskerville', serif;
+    color: #117a65;
+}
+
+#contact form button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #48c9b0;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 10px;
+    color: #fff;
+    font: 500 15px var(--fontRoboto);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    transform: translateY(-13px);
+    background-color: #117a65;
+}
+
+#contact form div {
+    text-align: center;
+}
+
 footer {
     height: 370px;
     background-color: #48c9b0;
