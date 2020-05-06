@@ -1,16 +1,26 @@
-window.onload = function () {
+window.onload =function loadData() {
+    let spinner = document.getElementById("spinner");
+    spinner.removeAttribute('hidden');
     fetch('https://ms-team-gdg.herokuapp.com/api/members')
-        .then(res => res.json())
-        .then(json => {
-            var team = document.getElementsByClassName('team')[0]
-            renderMember(json)
-        })        
-    const renderMember = records => {
-        records.forEach(record => {
-            team.innerHTML += `
+        .then(response => response.json())
+        .then(data => {
+            spinner.setAttribute('hidden', '');
+            console.log(data);
+        });
+}
+
+fetch('https://ms-team-gdg.herokuapp.com/api/members')
+    .then(res => res.json())
+    .then(json => {
+        var team = document.getElementsByClassName('team')[0]
+        renderMember(json)
+    })
+const renderMember = records => {
+    records.forEach(record => {
+        team.innerHTML += `
             <div class="member">
-                    <div class="face photo">
-                    <img src="img/photo.jpeg" id="photo" onmouseout="photo()" onmouseover="hoverPhoto()" alt="${record.position}" />
+                    <div class="face photo" onmouseout="photo(this, '${record.firstName}')" onmouseover="hoverPhoto(this , '${record.firstName}')">
+                    <img src="img/${record.firstName}.jpeg"  class="photouser" alt="${record.position}" />
                         <h1 class="name">${record.firstName} ${record.lastName}</h1>
                         <p class="position">${record.position}</p>
                         <p>${record.email}</p>
@@ -24,13 +34,12 @@ window.onload = function () {
                         <p>Fact ${record.fact}</p>
                     </div>
                 </div>`
+    });
+}
 
-        });
-    }
+function hoverPhoto(element , name) {
+   element.getElementsByClassName("photouser")[0].src =  `img/${name}_hover.jpeg`  
 }
-function hoverPhoto(){
-    document.getElementById("photo").src="img/photo_hover.jpeg"
-}
-function photo(){
-document.getElementById("photo").src="img/photo.jpeg"
+function photo(element, name) {
+   element.getElementsByClassName("photouser")[0].src =  `img/${name}.jpeg` 
 }
